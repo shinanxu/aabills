@@ -1,15 +1,10 @@
 //index.js
 //获取应用实例
 const app = getApp()
-app.data_transmit1 = 'hhhhhh'
-app.data_transmit2
-
-//var tttt = app.data_transmit
-//console.log(tttt)
 
 Page({
   data: {
-    motto: 'a',
+    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -17,7 +12,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../aaa/aaa'
+      url: '../logs/logs'
     })
   },
   onLoad: function () {

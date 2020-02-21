@@ -1,10 +1,5 @@
 //logs.js
-const app = getApp()
 const util = require('../../utils/util.js')
-
-
-var s9 = app.data_transmit9
-console.log(s9)
 
 Page({
   data: {
@@ -18,5 +13,3 @@ Page({
     })
   }
 })
-
-
