@@ -1,16 +1,20 @@
-Component({
-  properties: {},
-  data: {},
-  lifetimes: {
-    created: function() {},
-    attached: function() {
-      // 页面创建时执行
-      console.info("Page loaded!");
-    },
-    detached: function() {
-      // 页面销毁时执行
-      console.info("Page unloaded!");
-    }
+//welcome.js
+Page({
+  data: {
+    numPeople: 3
   },
-  methods: {}
-});
+  addPeople: function (e) {
+    const numPeople = this.data.numPeople < 9 ? this.data.numPeople + 1 : this.data.numPeople;
+    this.setData({
+      numPeople,
+    })
+    console.log('+1 people. current people: ', numPeople);
+  },
+  subPeople: function (e) {
+    const numPeople = this.data.numPeople > 2 ? this.data.numPeople - 1 : this.data.numPeople;
+    this.setData({
+      numPeople,
+    })
+    console.log('-1 people. current people: ', numPeople);
+  }
+})
