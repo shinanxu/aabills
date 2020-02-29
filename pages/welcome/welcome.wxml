@@ -1,0 +1,53 @@
+<view class="block-3">
+  <view class="box">
+    <image src="./images/img_23203_0_0.png" wx:if="true" class="layer" />
+    <view wx:if="true" class="head">
+      <text wx:if="true" class="friend-account">友账AA</text>
+    </view>
+    <view wx:if="true" class="stepdots">
+      <image src="./images/img_23203_0_9.png" wx:if="true" class="dot-1-pos" />
+      <view class="line-1" />
+      <image src="./images/img_23203_0_8.png" class="dot-2-pos" />
+      <view class="line-2" />
+      <image src="./images/img_23203_0_7.png" class="dot-3-pos" />
+      <view class="line-3" />
+      <image src="./images/img_23203_0_6.png" class="dot-4-pos" />
+    </view>
+    <view wx:if="true" class="card">
+      <view wx:if="true" class="ncard">
+        <view wx:if="true" class="title-1">
+          <view wx:if="true" class="outer">
+            <view class="wrap">
+              <image src="./images/img_23203_0_5.png" class="zuowei" />
+              <text class="title">确定账单参与人数</text>
+            </view>
+            <view class="block">
+              <view class="color-div-2" />
+            </view>
+          </view>
+        </view>
+        <view wx:if="true" class="box-question-1">
+          <view wx:if="true" class="bg-wrap">
+            <image src="./images/img_23203_0_4.png" wx:if="true" class="bg-question" />
+            <text class="summary">请问与您一同参与本次AA分账的小伙伴共几位呢？记得把自己算进去哦！</text>
+          </view>
+        </view>
+        <view wx:if="true" class="box-answer-1">
+          <view class="background-wrap">
+            <image src="./images/img_23203_0_1.png" wx:if="true" class="background" />
+            <image src="./images/img_23203_0_2.png" wx:if="true" class="button-up" />
+            <view wx:if="true" class="input-numb">
+              <text wx:if="true" class="num">3</text>
+            </view>
+            <image src="./images/img_23203_0_3.png" wx:if="true" class="button-up" />
+          </view>
+        </view>
+        <view wx:if="true" class="next-step-outer">
+          <view wx:if="true" class="next-step-wrap">
+            <text wx:if="true" class="next-step">下一步</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
