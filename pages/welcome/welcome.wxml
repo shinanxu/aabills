@@ -42,9 +42,9 @@
           </view>
         </view>
         <view class="next-step-outer">
-          <view class="next-step-wrap">
+          <button class="next-step-wrap" bindtap="test">
             <text class="next-step">下一步</text>
-          </view>
+          </button>
         </view>
       </view>
     </view>

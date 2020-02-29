@@ -16,5 +16,8 @@ Page({
       numPeople,
     })
     console.log('-1 people. current people: ', numPeople);
+  },
+  test: function (e) {
+    console.log('test');
   }
 })
