@@ -1,5 +1,9 @@
 {
   "disableScroll": true,
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+      "wux-steps": "../../dist/steps/index",
+      "wux-step": "../../dist/step/index",
+      "wux-button": "../../dist/button/index"
+  }
 }

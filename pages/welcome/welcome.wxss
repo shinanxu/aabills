@@ -295,8 +295,21 @@
   border-width: 3rpx;
   border-style: solid;
   border-radius: 37.5rpx;
-  border-color: rgba(255,194,0,1.00);
+  border-color: rgb(224, 193, 91);
   background-color: #ffffff;
+  width: 260rpx;
+  height: 75rpx;
+}
+.next-step-wrap-hover {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border-width: 3rpx;
+  border-style: solid;
+  border-radius: 37.5rpx;
+  border-color: rgb(224, 193, 91);
+  background-color: #fef6de;
   width: 260rpx;
   height: 75rpx;
 }
