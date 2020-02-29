@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="102px" viewBox="0 0 94 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>button-up#merge#</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="45" cy="45" r="45"></circle>
+        <filter x="-6.1%" y="-6.1%" width="112.2%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.635294118   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="P1---0.1.0-confirm-the-numb-negitive" transform="translate(-511.000000, -825.000000)">
+            <g id="card#card#" transform="translate(38.000000, 273.000000)">
+                <g id="box-answer1#group#" transform="translate(107.000000, 449.000000)">
+                    <g id="button-up#merge#" transform="translate(368.000000, 105.000000)">
+                        <g id="椭圆形备份-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#FFC200" stroke-width="3" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M45,28 C46.6568542,28 48,29.3431458 48,31 L48,42 L59,42 C60.6568542,42 62,43.3431458 62,45 C62,46.6568542 60.6568542,48 59,48 L48,48 L48,59 C48,60.6568542 46.6568542,62 45,62 C43.3431458,62 42,60.6568542 42,59 L42,48 L31,48 C29.3431458,48 28,46.6568542 28,45 C28,43.3431458 29.3431458,42 31,42 L42,42 L42,31 C42,29.3431458 43.3431458,28 45,28 Z" id="形状结合" fill="#FFC200"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

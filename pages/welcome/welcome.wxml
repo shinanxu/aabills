@@ -1,6 +1,5 @@
 <view class="block-3">
   <view class="box">
-    <image src="./images/img_23203_0_0.png" wx:if="true" class="layer" />
     <view wx:if="true" class="head">
       <text wx:if="true" class="friend-account">友账AA</text>
     </view>
@@ -35,11 +34,11 @@
         <view wx:if="true" class="box-answer-1">
           <view class="background-wrap">
             <image src="./images/img_23203_0_1.png" wx:if="true" class="background" />
-            <image src="./images/img_23203_0_2.png" wx:if="true" class="button-up" />
+            <image src="./images/button-down.svg" wx:if="true" class="button-down" />
             <view wx:if="true" class="input-numb">
-              <text wx:if="true" class="num">3</text>
+              <text wx:if="true" class="num">9</text>
             </view>
-            <image src="./images/img_23203_0_3.png" wx:if="true" class="button-up" />
+            <image src="./images/button-up.svg" wx:if="true" class="button-up" />
           </view>
         </view>
         <view wx:if="true" class="next-step-outer">
