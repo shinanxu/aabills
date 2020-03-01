@@ -295,7 +295,7 @@
   border-width: 3rpx;
   border-style: solid;
   border-radius: 37.5rpx;
-  border-color: rgb(224, 193, 91);
+  border-color: #ffc200;
   background-color: #ffffff;
   width: 260rpx;
   height: 75rpx;
@@ -308,7 +308,7 @@
   border-width: 3rpx;
   border-style: solid;
   border-radius: 37.5rpx;
-  border-color: rgb(224, 193, 91);
+  border-color: #ffc200;
   background-color: #fef6de;
   width: 260rpx;
   height: 75rpx;

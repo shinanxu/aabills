@@ -4,10 +4,10 @@
       <text class="friend-account">友账AA</text>
     </view>
     <wux-steps class="stepdots" current="{{ currentStep }}">
-        <wux-step title="First"></wux-step>
-        <wux-step title="Second"></wux-step>
-        <wux-step title="Third"></wux-step>
-        <wux-step title="Fourth"></wux-step>
+        <wux-step title=""></wux-step>
+        <wux-step title=""></wux-step>
+        <wux-step title=""></wux-step>
+        <wux-step title=""></wux-step>
     </wux-steps>
     <view class="card">
       <view class="ncard">
