@@ -1,21 +1,21 @@
-<view class="block-3">
-  <view class="box">
+<view class="{{isIphoneX?'block-3-x':'block-3'}}">
+  <view class="{{isIphoneX?'box-3-x':'box-3'}}">
     <view class="head">
-      <text class="friend-account">友账AA</text>
+      <text class="{{isIphoneX?'friend-account-x':'friend-account'}}">友账AA</text>
     </view>
     <!-- 步骤条 -->
-    <wux-steps class="stepdots" current="{{ currentStep }}">
+    <wux-steps class="{{isIphoneX?'stepdots-x':'stepdots'}}" current="{{ currentStep }}">
         <wux-step title=""></wux-step>
         <wux-step title=""></wux-step>
         <wux-step title=""></wux-step>
         <wux-step title=""></wux-step>
     </wux-steps>
     <!-- 卡片swiper -->
-    <swiper class="card" current="{{ currentStep }}" easing-function="easeInOutCubic">
+    <swiper class="{{isIphoneX?'card-x':'card'}}" current="{{ currentStep }}" easing-function="easeInOutCubic">
       <!-- 第1步: 确定账单参与人数 -->
       <swiper-item>
-        <view class="ncard">
-          <view class="title-1">
+        <view class="{{isIphoneX?'ncard-x':'ncard'}}">
+          <view class="{{isIphoneX?'title-1-x':'title-1'}}">
             <view class="outer">
               <view class="wrap">
                 <image src="./images/img_23203_0_5.png" class="zuowei" />
@@ -32,7 +32,7 @@
               <text class="summary">请问与您一同参与本次AA分账的小伙伴共几位呢？记得把自己算进去哦！</text>
             </view>
           </view>
-          <view class="box-answer-1">
+          <view class="{{isIphoneX?'box-answer-1-x':'box-answer-1'}}">
             <view class="background-wrap">
               <image src="./images/img_23203_0_1.png" class="background" />
               <image src="./images/button-down.svg" class="button-down" bindtap="subPeople"/>
@@ -42,7 +42,7 @@
               <image src="./images/button-up.svg" class="button-up" bindtap="addPeople"/>
             </view>
           </view>
-          <view class="next-step-outer">
+          <view class="{{isIphoneX?'next-step-outer-x':'next-step-outer'}}">
             <button class="next-step-wrap" hover-class="next-step-wrap-hover" bindtap="nextStep">
               <text class="next-step">下一步</text>
             </button>

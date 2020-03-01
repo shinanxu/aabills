@@ -1,8 +1,18 @@
 //welcome.js
+const app = getApp()
+// const isIphoneX = app.globalData.isIphoneX;
 Page({
   data: {
     numPeople: 3,
-    currentStep: 0
+    currentStep: 0,
+    isIphoneX: app.globalData.isIphoneX
+  },
+  onLoad: function(options) {
+    console.log('isIphoneX: ',this.data.isIphoneX)
+    // let isIphoneX = this.data.isIphoneX;
+    // this.setData({
+    //   isIphoneX: isIphoneX
+    // })
   },
   addPeople: function (e) {
     const numPeople = this.data.numPeople < 9 ? this.data.numPeople + 1 : this.data.numPeople;

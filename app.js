@@ -1,6 +1,8 @@
 //app.js
 App({
   onLaunch: function () {
+    this.checkMobilePhone();
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -33,7 +35,21 @@ App({
       }
     })
   },
+  checkMobilePhone: function () {
+    var self = this;
+    wx.getSystemInfo({
+      success: function (e) {
+        var a = e.model;
+        if (-1 != a.search("iPhone X") || -1 != a.search("iPhone XS")) {//找到
+          self.globalData.isIphoneX = true
+        } else {
+          self.globalData.isIphoneX = false
+        }
+      }
+    })
+  },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    isPhoneX: false
   }
 })
