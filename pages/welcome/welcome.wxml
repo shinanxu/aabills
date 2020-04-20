@@ -51,13 +51,114 @@
       </swiper-item>
       <!-- 第2步:  -->
       <swiper-item>
-        <view class="ncard"></view>
+        <view class="{{isIphoneX?'ncard-x':'ncard'}}">
+          <view class="{{isIphoneX?'title-1-x':'title-1'}}">
+            <view class="outer">
+              <view class="wrap">
+                <!-- <image src="./images/img_23203_0_5.png" class="zuowei" />
+                <text class="title">确定账单参与人数</text> -->
+              </view>
+              <view class="block">
+                <view class="color-div-2" />
+              </view>
+            </view>
+          </view>
+          <view class="box-question-1">
+            <view class="bg-wrap">
+              <image src="./images/img_23203_0_4.png" class="bg-question" />
+              <!-- <text class="summary">请问与您一同参与本次AA分账的小伙伴共几位呢？记得把自己算进去哦！</text> -->
+            </view>
+          </view>
+          <view class="{{isIphoneX?'box-answer-1-x':'box-answer-1'}}">
+            <view class="background-wrap">
+              <image src="./images/img_23203_0_1.png" class="background" />
+              <!-- <image src="./images/button-down.svg" class="button-down" bindtap="subPeople"/>
+              <view class="input-numb">
+                <text class="num">{{numPeople}}</text>
+              </view>
+              <image src="./images/button-up.svg" class="button-up" bindtap="addPeople"/> -->
+            </view>
+          </view>
+          <view class="{{isIphoneX?'next-step-outer-x':'next-step-outer'}}">
+            <button class="next-step-wrap" hover-class="next-step-wrap-hover" bindtap="nextStep">
+              <text class="next-step">下一步</text>
+            </button>
+          </view>
+        </view>
       </swiper-item>
       <!-- 第3步:  -->
       <swiper-item>
+        <view class="{{isIphoneX?'ncard-x':'ncard'}}">
+          <view class="{{isIphoneX?'title-1-x':'title-1'}}">
+            <view class="outer">
+              <view class="wrap">
+                <!-- <image src="./images/img_23203_0_5.png" class="zuowei" />
+                <text class="title">确定账单参与人数</text> -->
+              </view>
+              <view class="block">
+                <view class="color-div-2" />
+              </view>
+            </view>
+          </view>
+          <view class="box-question-1">
+            <view class="bg-wrap">
+              <image src="./images/img_23203_0_4.png" class="bg-question" />
+              <!-- <text class="summary">请问与您一同参与本次AA分账的小伙伴共几位呢？记得把自己算进去哦！</text> -->
+            </view>
+          </view>
+          <view class="{{isIphoneX?'box-answer-1-x':'box-answer-1'}}">
+            <view class="background-wrap">
+              <image src="./images/img_23203_0_1.png" class="background" />
+              <!-- <image src="./images/button-down.svg" class="button-down" bindtap="subPeople"/>
+              <view class="input-numb">
+                <text class="num">{{numPeople}}</text>
+              </view>
+              <image src="./images/button-up.svg" class="button-up" bindtap="addPeople"/> -->
+            </view>
+          </view>
+          <view class="{{isIphoneX?'next-step-outer-x':'next-step-outer'}}">
+            <button class="next-step-wrap" hover-class="next-step-wrap-hover" bindtap="nextStep">
+              <text class="next-step">下一步</text>
+            </button>
+          </view>
+        </view>
       </swiper-item>
       <!-- 第4步:  -->
       <swiper-item>
+        <view class="{{isIphoneX?'ncard-x':'ncard'}}">
+          <view class="{{isIphoneX?'title-1-x':'title-1'}}">
+            <view class="outer">
+              <view class="wrap">
+                <!-- <image src="./images/img_23203_0_5.png" class="zuowei" />
+                <text class="title">确定账单参与人数</text> -->
+              </view>
+              <view class="block">
+                <view class="color-div-2" />
+              </view>
+            </view>
+          </view>
+          <view class="box-question-1">
+            <view class="bg-wrap">
+              <image src="./images/img_23203_0_4.png" class="bg-question" />
+              <!-- <text class="summary">请问与您一同参与本次AA分账的小伙伴共几位呢？记得把自己算进去哦！</text> -->
+            </view>
+          </view>
+          <view class="{{isIphoneX?'box-answer-1-x':'box-answer-1'}}">
+            <view class="background-wrap">
+              <image src="./images/img_23203_0_1.png" class="background" />
+              <!-- <image src="./images/button-down.svg" class="button-down" bindtap="subPeople"/>
+              <view class="input-numb">
+                <text class="num">{{numPeople}}</text>
+              </view>
+              <image src="./images/button-up.svg" class="button-up" bindtap="addPeople"/> -->
+            </view>
+          </view>
+          <view class="{{isIphoneX?'next-step-outer-x':'next-step-outer'}}">
+            <button class="next-step-wrap" hover-class="next-step-wrap-hover" bindtap="nextStep">
+              <text class="next-step">下一步</text>
+            </button>
+          </view>
+        </view>
       </swiper-item>
     </swiper>
   </view>

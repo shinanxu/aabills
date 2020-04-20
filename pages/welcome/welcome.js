@@ -29,7 +29,7 @@ Page({
     console.log('-1 people. current people: ', numPeople);
   },
   nextStep: function (e){
-    const currentStep = this.data.currentStep + 1 > 4 ? 4 : this.data.currentStep + 1
+    const currentStep = this.data.currentStep + 1 > 3 ? 3 : this.data.currentStep + 1
     this.setData({
       currentStep,
     })
